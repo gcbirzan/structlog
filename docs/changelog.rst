@@ -1,6 +1,7 @@
 Changelog
 =========
 
+- :bug:`19` Pass positional arguments to stdlib wrapped loggers that use string formatting.
 - :bug:`-` Various doc fixes.
 - :release:`0.4.0 <2013-11-10>`
 - :feature:`6` Add :class:`structlog.processors.StackInfoRenderer` for adding stack information to log entries without involving exceptions.
